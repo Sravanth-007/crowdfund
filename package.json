@@ -8,8 +8,8 @@
     "deploy":"gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "deploy": "yarn build && npx thirdweb@latest upload dist"
+    "preview": "vite preview"
+    
   },
   "dependencies": {
     "@thirdweb-dev/react": "^3",

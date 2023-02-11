@@ -26,3 +26,5 @@ const App = () => {
 }
 
 export default App
+
+//"deploy": "yarn build && npx thirdweb@latest upload dist"
