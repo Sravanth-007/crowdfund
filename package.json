@@ -1,15 +1,14 @@
 {
   "name": "client",
   "private": true,
-  "homepage" : "http://Sravanth-007.github.io/crowdfund",
+  "homepage": "http://Sravanth-007.github.io/crowdfund",
   "version": "0.0.0",
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
-    
   },
   "dependencies": {
     "@thirdweb-dev/react": "^3",
